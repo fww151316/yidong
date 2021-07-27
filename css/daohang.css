@@ -1,0 +1,102 @@
+html,body{
+    height: 100%;
+    font-size: 13.333333vw;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+}
+.top{
+    height: 1.35rem;
+    background-color: rgb(218, 101, 101);
+}
+.top .yi{
+    height: 0.85rem;
+    background-color: #000;
+    display: flex;
+    align-items: center;
+}
+.top span{
+    font-size: 0.34rem;
+    color: #999;
+    margin-left: 0.3rem;
+    margin-right: 2.9rem;
+}
+.top .yi p{
+    font-size: 0.32rem;
+    color: #fff;
+    margin-right: 2.55rem;
+}
+.top i{
+    font-size: 0.3rem;
+    color: #999;
+}
+.top .er{
+    height: 0.5rem;
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.top .er p{
+    font-size: 0.24rem;
+    color: #a1a1a1;
+    margin-left: 0.3rem;
+    margin-right: 0.26rem;
+}
+
+
+
+
+.zhong{
+    flex: 1;
+    display: flex;
+    overflow-y: auto;
+    flex-direction: column;
+}
+
+.zhong .yi{
+    height: 3.6rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    border-bottom: 1px solid #e6e6e6;
+}
+
+.zhong .yi dl{
+    width: 1.15rem;
+    height: 1.7rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 0.66rem;
+}
+.zhong .yi dl dt{
+    margin-top: 0.48rem;
+    margin-bottom: 0.45rem;
+}
+.zhong .yi dl dt span{
+    font-size: 0.5rem;
+}
+.zhong .yi dl dd{
+    font-size: 0.26rem;
+    color: #686868;
+}
+
+
+.foot{
+    height: 0.7rem;
+}
+
+.foot .qi{
+    height: 0.5rem;
+    background-color: #f2f2f2;
+    font-size: 0.22rem;
+    color: #bababa;
+    display: flex;
+    align-items: center;
+}
+.foot .qi p{
+    margin-left: 0.32rem;
+}

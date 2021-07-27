@@ -1,0 +1,137 @@
+html,body{
+    height: 100%;
+    font-size: 13.333333vw;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+}
+
+.top{
+    height: 0.9rem;
+    background-color: #161618;
+    display: flex;
+}
+.top dl{
+    height: 0.9rem;
+    width: 0.7rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 2.45rem;
+}
+.top dl dt{
+    font-size: 0.3rem;
+    color: #666;
+    margin-bottom: 0.1rem;
+}
+.top dl dd img{
+    width: 0.24rem;
+    height: 0.06rem;
+    opacity: 0;
+}
+.top dl:nth-child(2){
+    margin-left: 1.2rem;
+    margin-right: 1.85rem;
+}
+.top span{
+    font-size: 0.38rem;
+    color: #666;
+    margin-top: 0.26rem;
+}
+
+.top dl:hover dt{
+    font-size: 0.35rem;
+    color: #0bbe06;
+
+}
+.top dl:hover dd img{
+    opacity: 1;
+}
+
+
+
+.zhong{
+    flex: 1;
+    display: flex;
+    overflow-y: auto;
+    flex-direction: column;
+}
+.zhong .yi{
+    height: 5.35rem;
+    background-color: aliceblue;
+}
+.zhong .yi .tu{
+    height: 4.22rem;
+}
+.zhong .yi .tu img{
+    height: 4.2rem;
+}
+.zhong .yi .xi{
+    height: 1.13rem;
+    display: flex;
+    align-items: center;
+}
+.zhong .yi .xi img{
+    width: 0.62rem;
+    height: 0.62rem;
+    margin-left: 0.2rem;
+}
+.zhong .yi .xi h3{
+    font-size: 0.22rem;
+    color: #666;
+    margin-left: 0.12rem;
+    margin-right: 1.6rem;
+}
+.zhong .yi .xi .guan{
+    width: 1.16rem;
+    height: 0.46rem;
+    border: 2px solid #d1d1d1;
+    border-radius: 0.3rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 0.4rem;
+}
+.zhong .yi .xi .guan span{
+    font-size: 0.16rem;
+    color: #666;
+    margin: 0;
+}
+.zhong .yi .xi .guan p{
+    font-size: 0.22rem;
+    color: #666;
+}
+.zhong .yi .xi span{
+    font-size: 0.35rem;
+    color: #666;
+    margin-right: 0.5rem;
+}
+
+
+
+
+.foot{
+    height: 0.99rem;
+}
+.foot ul{
+    height: 0.99rem;
+    display: flex;
+    color: #777;
+}
+.foot ul li{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.2rem;
+}
+.foot ul li span{
+    font-size: 0.32rem;
+}
+.foot ul li:hover{
+    color: #ff3f29;
+}

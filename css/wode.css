@@ -1,0 +1,268 @@
+html,body{
+    height: 100%;
+    font-size: 13.333333vw;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+}
+.top{
+    height: 0.9rem;
+    background-color: #161618;
+    display: flex;
+}
+.top p{
+    font-size: 0.32rem;
+    color: #fff;
+    line-height: 0.9rem;
+    margin-left: 3.4rem;
+    margin-right: 1.9rem;
+}
+.top span{
+    font-size: 0.4rem;
+    color: #999;
+    margin-top: 0.2rem;
+}
+.top .icon-liaotian{
+    margin-right: 0.5rem;
+}
+
+
+.zhong{
+    flex: 1;
+    display: flex;
+    overflow-y: auto;
+    flex-direction: column;
+}
+.zhong .sousuo{
+    min-height: 0.95rem;
+    display: flex;
+    align-items: center;
+}
+.zhong .sousuo .zuo{
+    width: 6.05rem;
+    height: 0.58rem;
+    background-color: #f1f1f1;
+    border-radius: 0.3rem 0 0 0.3rem;
+    margin-left: 0.25rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.25rem;
+    color: #9d9d9d;
+    
+}
+.zhong .sousuo .you{
+    width: 0.95rem;
+    height: 0.58rem;
+    background-color:#19ca14;
+    border-radius:0 0.3rem 0.3rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 0.25rem;
+}
+.zhong .hu{
+    min-height: 1.8rem;
+    display: flex;
+    align-items: center;
+}
+.zhong .hu img{
+    height: 1.1rem;
+    width: 1.1rem;
+    margin-right: 0.25rem;
+    margin-left: 0.25rem;
+}
+.zhong .hu p{
+    font-size: 0.3rem;
+    color: #333;
+    margin-right: 2.95rem;
+}
+.zhong .hu p span{
+    color: #e7bb7d;
+    margin-left: 0.03rem;
+    font-size: 0.3rem;
+}
+.zhong .hu .ren{
+    width: 2rem;
+    height: 0.52rem;
+    border: 1px solid #ff8814;
+    border-radius: 0.3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.zhong .hu .ren i{
+    font-size: 0.2rem;
+    color: #ff7e00;
+}
+.zhong .huak{
+    min-height: 1.45rem;
+    background-color: #f1f1f1;
+    display: flex;
+    align-items: center;
+    overflow-x: auto;
+}
+.zhong .huak .yi{
+    height: 1.45rem;
+    min-width: 4.85rem;
+    background-color: #fff;
+    border-radius: 0.2rem;
+    margin-left: 0.25rem;
+    display: flex;
+    align-items: center;
+} 
+.zhong .huak .yi span{
+    font-size: 0.5rem;
+    color: #dbb272;
+    margin-left: 0.35rem;
+    margin-right: 0.25rem;
+}
+.zhong .huak .yi p{
+    font-size: 0.28rem;
+    color: #dbb272;
+}
+.zhong .huak .yi p i{
+    font-size: 0.2rem;
+    color: #999;
+}
+.zhong .huak .yi .kan{
+    width: 1.15rem;
+    height: 0.5rem;
+    background-color: #f9f9f9;
+    border-radius: 0.3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0.45rem;
+}
+.zhong .huak .yi .kan p{
+    font-size: 0.25rem;
+    color: #9f9f9f;
+}
+.zhong .huak .er{
+    min-width: 1.45rem;
+    height: 1.25rem;
+    background-color: #fff;
+    text-align: center;
+    border-radius: 0.2rem;
+    padding-top: 0.2rem;
+    margin-left: 0.15rem;
+}
+.zhong .huak .er span{
+    font-size: 0.5rem;
+}
+.zhong .huak .er p{
+    font-size: 0.22rem;
+    line-height: 0.55rem;
+}
+
+.zhong .quan{
+    height: 3.05rem;
+}
+.zhong .quan .shang{
+    height: 0.42rem;
+    display: flex;
+    align-items: center;
+    margin-top: 0.6rem;
+}
+.zhong .quan .shang .icon-paopao{
+    font-size: 0.42rem;
+    color: #11c00c;
+    margin-left: 0.3rem;
+}
+.zhong .quan .shang p{
+    font-size: 0.28rem;
+    color: #484848;
+    font-weight: 900;
+    margin-left: 0.15rem;
+    margin-right: 1.65rem;
+}
+.zhong .quan .shang i{
+    font-size: 0.25rem;
+    color: #979797;
+    margin-right: 0.5rem;
+}
+.zhong .quan .shang .icon-jiantou{
+    font-size: 0.25rem;
+}
+.zhong .quan .xia{
+    height: 2rem;
+    border-bottom: 1px solid #999;
+    display: flex;
+    justify-content: space-around;
+}
+
+.zhong .quan .xia .ren{
+    width: 3.25rem;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    font-size: 0.18rem;
+    color: #a7a7a7;
+     line-height: 0.35rem;
+}
+.zhong .quan .xia .ren img{
+    width: 1.2rem;
+    height: 1.2rem;
+    margin-right: 0.15rem;
+}
+.zhong .quan .xia .ren p i{
+    font-size: 0.25rem;
+    color: #373737;
+}
+
+.zhong .duo{
+    height: 1.95rem;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 0.1rem;
+}
+.zhong .duo dl{
+    height: 1.95rem;
+    width: 1.6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.zhong .duo dl span{
+    font-size: 0.58rem;
+    line-height: 0.85rem;
+    color: #21bc23;
+}
+.zhong .duo dl dd{
+    font-size: 0.25em;
+    color: #333;
+}
+
+
+
+
+
+
+
+.foot{
+    height: 1.05rem;
+}
+.foot ul{
+    height: 0.99rem;
+    display: flex;
+    color: #777;
+}
+.foot ul li{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.2rem;
+}
+.foot ul li span{
+    font-size: 0.32rem;
+}
+.foot ul li:hover{
+    color: #ff3f29;
+}

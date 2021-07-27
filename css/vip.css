@@ -1,0 +1,231 @@
+html,body{
+    height: 100%;
+    font-size: 13.333333vw;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+}
+.top{
+    height: 1.56rem;
+    background-color: #161618;
+}
+.top .shang{
+    height: 0.75rem;
+    display: flex;
+    align-items: center;
+    font-size: 0.3rem;
+}
+.top .shang p{
+    color: #c8a06a;
+    margin-left: 2.25rem;
+    margin-right: 0.6rem;
+}
+.top .shang i{
+    color: #646464;
+    margin-right: 1.6rem;
+}
+.top .shang span{
+    font-size: 0.35rem;
+    color: #999;
+}
+.top .xia{
+    height: 0.82rem;
+    display: flex;
+    overflow-x: auto;
+}
+.top .xia dl{
+   min-width:1.54rem;
+    height: 0.82rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.top .xia dl dt{
+    font-size: 0.3rem;
+    color: #999;
+    margin-top: 0.2rem;
+}
+.top .xia dl dd img{
+    width: 0.25rem;
+    height: 0.06rem;
+    margin-top: 0.1rem;
+    opacity: 0;
+}
+.top .xia dl:hover dt{
+    color: #c8a06a;
+}
+.top .xia dl:hover dd img{
+    opacity: 1;
+}
+
+
+
+.zhong{
+    flex: 1;
+    display: flex;
+    overflow-y: auto;
+    flex-direction: column;
+}
+.zhong .tu{
+    height: 3.75rem;
+}
+.zhong .tu img{
+    width: 100%;
+    height: 3.75rem;
+}
+.zhong .vip{
+    width: 7.1rem;
+    height: 2.45rem;
+    background-color: rgb(255, 255, 255);
+    margin: -0.4rem auto 0;
+    box-shadow: 2px 2px 6px #999;
+    margin-bottom: 0.5rem;
+}
+.zhong .vip .sang{
+    height: 1.38rem;
+    display: flex;
+    align-items: center;
+}
+.zhong .vip .sang img{
+    height: 0.88rem;
+    margin-left: 0.25rem;
+}
+.zhong .vip .sang .fei{
+    width: 1.38rem;
+    height: 0.6rem;
+    background-color: #c8a06a;
+    border-radius: 0.4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.28rem;
+    color: #1e190f;
+    margin-left: 1.1rem;
+}
+.zhong .vip .xia{
+    height: 1.05rem;
+    display: flex;
+    justify-content: space-around;
+}
+.zhong .vip .xia dl{
+    width: 1.15rem;
+    height: 1.05rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.zhong .vip .xia dl dt span{
+    font-size: 0.4rem;
+    color: #c8a06a;
+}
+.zhong .vip .xia dl dd{
+    font-size: 0.25rem;
+    color: #666;
+    margin-top: 0.2rem;
+}
+
+.zhong .re{
+    height: 0.88rem;
+    background-color: floralwhite;
+    display: flex;
+    align-items: center;
+}
+.zhong .re .icon-location{
+    color: #c8a06a;
+    font-size: 0.55rem;
+    margin: 0 0.25rem 0 0.3rem;
+}
+.zhong .re p{
+    font-size: 0.4rem;
+    font-weight: 900;
+    color: #333;
+    margin-right: 3.1rem;
+}
+.zhong .re i{
+    font-size: 0.25rem;
+    color: #676767;
+}
+.zhong .re .icon-jiantou{
+    font-size: 0.25rem;
+    color: #888;
+}
+.zhong .biao{
+   min-height: 0.8rem;
+    display: flex;
+    overflow-x: auto;
+}
+.zhong .biao ul{
+    height: 0.8rem;
+    display: flex;
+    align-items: center;
+}
+.zhong .biao ul li{
+    width: 0.85rem;
+    font-size: 0.28rem;
+    color: #333;
+    font-weight: 900;
+    margin-left: 0.55rem;
+}
+.zhong .biao ul li:hover{
+    color: #c8a06a;
+}
+.zhong .lie{
+    min-height: 4.4rem;
+    background-color: ghostwhite;
+    display: flex;
+    overflow-x: auto;
+}
+.zhong .lie dl dt img{
+    height: 3.12rem;
+    width: 2.34rem;
+    margin-right: 0.02rem;
+}
+.zhong .lie dl dd p{
+    font-size: 0.28rem;
+    color: #333;
+    margin-left: 0.25rem;
+}
+.zhong .lie dl dd i{
+    font-size: 0.2rem;
+    color: #999;
+}
+.zhong .dan{
+    height: 0.8rem;
+    background-color: #f9f9f9;
+    text-align: center;
+    margin-bottom: 0.4rem;
+    line-height: 0.8rem;
+    font-size: 0.25rem;
+    color: #666;
+}
+
+
+
+
+
+
+
+.foot{
+    height: 0.99rem;
+}
+.foot ul{
+    height: 0.99rem;
+    display: flex;
+    color: #777;
+}
+.foot ul li{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.2rem;
+}
+.foot ul li span{
+    font-size: 0.32rem;
+}
+.foot ul li:hover{
+    color: #ff3f29;
+}
